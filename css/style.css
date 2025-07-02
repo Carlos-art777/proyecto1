@@ -247,6 +247,8 @@ main{
         }
 
 
+/*carrusel*/
+
 .dibujo1{
     width: 65rem;
     height: 36rem;
@@ -275,6 +277,25 @@ main{
 }
 .carousel-control-prev-icon{
     background-color: #324682;
+
+}
+
+/*footer*/
+
+.pie{
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .texto-pie{
+    height: 5rem;
+    display: flex;
+    align-items: end;
+ }
+.iconos{
+    width: 3rem;
+    height: auto;
 }
         
         @media (max-width: 768px) {
